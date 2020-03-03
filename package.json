@@ -1,0 +1,32 @@
+{
+  "name": "smartmailbox",
+  "version": "1.0.0",
+  "description": "A smart mailbox",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilsharma356/SmartMailBox.git"
+  },
+  "author": "uOttaHackTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilsharma356/SmartMailBox/issues"
+  },
+  "homepage": "https://github.com/sahilsharma356/SmartMailBox#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node": "12.15.0",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1"
+  },
+  "engines": {
+    "node": "12.15.0",
+    "npm": "6.13.4"
+  }
+}
